@@ -37,14 +37,6 @@ GEM
       execjs
     coffee-script-source (1.7.0)
     erubis (2.7.0)
-<<<<<<< HEAD
-    execjs (2.1.0)
-    hike (1.2.3)
-    i18n (0.6.9)
-    jbuilder (2.0.7)
-      activesupport (>= 3.0.0, < 5)
-      multi_json (~> 1.2)
-=======
     execjs (2.0.2)
     hike (1.2.3)
     i18n (0.6.9)
@@ -56,7 +48,6 @@ GEM
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
 >>>>>>> 5b567410bca106f3d890fb5ba137ad64172611b5
->>>>>>> 2f8fa51bab95f083e7d02461095cdb94393a5926
     jquery-rails (3.0.4)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
@@ -67,18 +58,12 @@ GEM
     mime-types (1.25.1)
 <<<<<<< HEAD
     minitest (5.3.4)
-    multi_json (1.10.1)
-    polyglot (0.3.5)
-=======
-<<<<<<< HEAD
-    minitest (5.3.4)
 =======
     minitest (5.3.3)
 >>>>>>> 5b567410bca106f3d890fb5ba137ad64172611b5
     multi_json (1.10.0)
     pg (0.15.1)
     polyglot (0.3.4)
->>>>>>> 2f8fa51bab95f083e7d02461095cdb94393a5926
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -92,14 +77,11 @@ GEM
       bundler (>= 1.3.0, < 2.0)
       railties (= 4.1.1)
       sprockets-rails (~> 2.0)
-<<<<<<< HEAD
-=======
     rails_12factor (0.0.2)
       rails_serve_static_assets
       rails_stdout_logging
     rails_serve_static_assets (0.0.2)
     rails_stdout_logging (0.0.3)
->>>>>>> 2f8fa51bab95f083e7d02461095cdb94393a5926
     railties (4.1.1)
       actionpack (= 4.1.1)
       activesupport (= 4.1.1)
@@ -107,16 +89,11 @@ GEM
       thor (>= 0.18.1, < 2.0)
 <<<<<<< HEAD
     rake (10.3.2)
-    rdoc (4.1.1)
-=======
-<<<<<<< HEAD
-    rake (10.3.2)
     rdoc (3.12.2)
 =======
     rake (10.3.1)
     rdoc (4.1.1)
 >>>>>>> 5b567410bca106f3d890fb5ba137ad64172611b5
->>>>>>> 2f8fa51bab95f083e7d02461095cdb94393a5926
       json (~> 1.4)
     sass (3.2.19)
     sass-rails (4.0.3)
@@ -124,11 +101,6 @@ GEM
       sass (~> 3.2.0)
       sprockets (~> 2.8, <= 2.11.0)
       sprockets-rails (~> 2.0)
-<<<<<<< HEAD
-    sdoc (0.4.0)
-      json (~> 1.8)
-      rdoc (~> 4.0, < 5.0)
-=======
 <<<<<<< HEAD
     sdoc (0.3.20)
       json (>= 1.1.3)
@@ -138,7 +110,6 @@ GEM
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
 >>>>>>> 5b567410bca106f3d890fb5ba137ad64172611b5
->>>>>>> 2f8fa51bab95f083e7d02461095cdb94393a5926
     spring (1.1.3)
     sprockets (2.11.0)
       hike (~> 1.2)
@@ -149,24 +120,13 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (~> 2.8)
-<<<<<<< HEAD
-    sqlite3 (1.3.9)
-    thor (0.19.1)
-    thread_safe (0.3.4)
-=======
     sqlite3 (1.3.8)
     thor (0.19.1)
     thread_safe (0.3.3)
->>>>>>> 2f8fa51bab95f083e7d02461095cdb94393a5926
     tilt (1.4.1)
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
-<<<<<<< HEAD
-    turbolinks (1.1.1)
-      coffee-rails
-    tzinfo (1.2.1)
-=======
 <<<<<<< HEAD
     turbolinks (1.1.1)
       coffee-rails
@@ -179,32 +139,16 @@ GEM
     turbolinks (2.2.2)
       coffee-rails
     tzinfo (1.1.0)
->>>>>>> 2f8fa51bab95f083e7d02461095cdb94393a5926
       thread_safe (~> 0.1)
     uglifier (2.5.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-<<<<<<< HEAD
-=======
 >>>>>>> 5b567410bca106f3d890fb5ba137ad64172611b5
->>>>>>> 2f8fa51bab95f083e7d02461095cdb94393a5926
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
-  coffee-rails (~> 4.0.1)
-  jbuilder (~> 2.0)
-  jquery-rails (= 3.0.4)
-  rails (= 4.1.1)
-  sass-rails (~> 4.0.3)
-  sdoc (~> 0.4.0)
-  spring
-  sqlite3
-  turbolinks (= 1.1.1)
-  uglifier (>= 2.1.1)
-=======
 <<<<<<< HEAD
   coffee-rails (= 4.0.1)
   jbuilder (= 1.0.2)
@@ -231,4 +175,3 @@ DEPENDENCIES
   turbolinks
   uglifier (>= 2.1.1)
 >>>>>>> 5b567410bca106f3d890fb5ba137ad64172611b5
->>>>>>> 2f8fa51bab95f083e7d02461095cdb94393a5926

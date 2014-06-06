@@ -1,0 +1,39 @@
+<h1>MODELADO DE PRUEBA DE BASES DE DATOS</h1>
+<h2>DESARROLLADO POR: INGENIERO DARIO CAMPAÑA GRUPO D-TinG</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+ <style type="text/css">
+  body {
+    font-family: Georgia, "Arial",
+          Times, serif;
+    color: blue;
+    background-color: #000000 }
+  h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+  </style>
+  <tbody>
+    <% @users.each do |user| %>
+      <tr>
+        <td><%= user.name %></td>
+        <td><%= user.email %></td>
+        <td><%= link_to 'Show', user %></td>
+        <td><%= link_to 'Edit', edit_user_path(user) %></td>
+        <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New User', new_user_path %>

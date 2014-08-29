@@ -1,0 +1,23 @@
+<h1>Tareas#new</h1>
+<p>Find me in app/views/tareas/new.html.erb</p>
+<h2> Nueva tarea </h2>
+<%= render :partial => "formulario_guardar_tareas.html" %>
+def create
+   #Recuperamos las varibles POST que vinieron desde la acción new.
+   @titulo = params[:tarea][:titulo];
+   @descripcion = params[:tarea][:descripcion];
+   @prioridad = params[:tarea][:prioridad];
+   #Creamos el objeto con los valores a ingresar.
+   @tarea = Tarea.new({
+      :titulo => @titulo,
+      :descripcion => @descripcion,
+      :prioridad => @prioridad,
+      :activo => true
+   });
+   #Verificamos si la tarea ha podido ser guardado correctamente.
+   if @tarea.save()
+      redirect_to tareas_path, :notice => "La tarea ha sido insertada";
+   else
+      render "new";
+   end
+ end

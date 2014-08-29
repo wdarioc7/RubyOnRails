@@ -1,0 +1,5 @@
+<h1>Tareas#show</h1>
+<p>Find me in app/views/tareas/show.html.erb</p>
+def show
+   @tarea = Tarea.find(params[:id]);
+end
